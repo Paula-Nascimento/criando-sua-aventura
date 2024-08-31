@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Padaria Pão de Açúcar</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Você se encontra indo comprar pão na padaria Pão de Açúcar por ordem de sua mãe. Pois você comeu todos os
+                pães nesta manhã. Qual caminho você pega?</p>
+            <button class="btn-proximo" data-proximo="1">Mesmo caminho de sempre</button>
+            <button class="btn-proximo" data-proximo="2">Pegar atalho</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/passo1.jpg" alt="Crianças brincando na rua">
+            <p>Andando na rua voce avista uma criança jogando bola perto da avenida. Ela deixa a bola cair e tenta
+                buscar ela na avenida cheia de carros.</p>
+            <button class="btn-proximo" data-proximo="3">Salvar a criança</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar e deixar que os pais dela a salvem</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/passo2.webp" alt="Bar com os amigos de seu pai">
+            <p>Você começa a andar e acaba se perdendo por não conhecer direito o seu bairro. Ao longe Você pode avistar
+                alguns homens conhecidos de seu pai no Bar do Sr. Edineu e um beco ao lado.</p>
+            <button class="btn-proximo" data-proximo="5">Pedir ajuda aos Amigos de seu pai</button>
+            <button class="btn-proximo" data-proximo="6">Ir por um beco escuro</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/passo3.jpg" alt="Mãe agradecida">
+            <p>Você corre e salva a criança, os pais te agradecem e te entregam uma presilha e cabelo prateada como
+                simbolo de gratidão.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar Andando</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="img/passo4.jpg" alt="Bola voando em sua direção">
+            <p>Os pais correm e seguram a criança, em contra partida a bola bate em um dos carros, voa e bate em sua cabeça.</p>
+            <button class="btn-proximo" data-proximo="10">Continuar Andando até a padaria</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/casa.png" alt="Indo para casa">
+            <p>Eles sendo muito simpáticos lhe dão a informação e por boa vontade te acompanham até a avenida dizendo que aquele lugar era perigoso e Por ser perigoso você decide voltar para casa.</p>
+            <button class="btn-proximo" data-proximo="16">Ir pra casa</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="img/passo6.jpg" alt="seguranças bravos">
+            <p>Ao pegar um atalho em um beco, você entra em uma área que estava sob construção e acaba chamando a atenção de seguranças mal humorados</p>
+            <button class="btn-proximo" data-proximo="8">Se esconder</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Ao continuar andando, você chega em uma esquina que da direto na padaria. Na esquina da padaria você
+                encontra um idoso que vende bijuterias.</p>
+            <button class="btn-proximo" data-proximo="9">Ir ver a loja</button>
+            <button class="btn-proximo" data-proximo="10">Ignorar e ir pra padaria</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você se esconde atrás de alguns troncos de madeira e consegue despistar os seguranças. Com isso Você fica em dúvida sobre pegar um caminho mais longo e seguro até a padaria ou se vai pra casa</p>
+            <button class="btn-proximo" data-proximo="10">Ignorar e ir pra padaria</button>
+            <button class="btn-proximo" data-proximo="13">Ir para casa</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="img/passo9.jpg" alt="Presilha rara">
+            <p>Ao entrar na loja, o velho vendendor diz que a presilha que você tem é rara e lhe oferece um alto valor por ela</p>
+            <button class="btn-proximo" data-proximo="11">Vender a presilha</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="img/entrada padaia.png" alt="entrada da padaria">
+            <p>Você entra na padaria, compra o pão que aumentou recentemene e não sobra troco</p>
+            <button class="btn-proximo" data-proximo="20">Ir pra casa</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Com o dinheiro da presilha você compra 2 sacos de pães e vai pra casa</p>
+            <button class="btn-proximo" data-proximo="12">Ir pra casa</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Sua mãe agradece e te faz um bolo de chocolate por fazer isso por ela.</p>
+            <button class="btn-proximo" data-proximo="18">Comer o bolo.</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Você Volta pra casa sem comprar o pão, fala que o mercado estava fechado, por isso não comprou o pão.</p>
+            <button class="btn-proximo" data-proximo="15">Ir pro quarto</button>
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Você se esconde atrás de alguns troncos de madeira e consegue despistar os seguranças. Depois que eles
+                vão embora, você decide voltar pra casa por medo.</p>
+            <button class="btn-proximo" data-proximo="13">Ir para casa</button>
+        </div>
+        <div class="passo" id="passo-15">
+            <p>Minutos depois seu pai chega com o pão e sua mentira é descoberta. Em seguida sua mãe te chama da sala.
+            </p>
+            <button class="btn-proximo" data-proximo="16">Ir pra sala</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="img/passo15.webp" alt="Lavando o banheiro">
+            <p>Final Ruim. Por você não ter comprado o pão, como punição, você é obrigado a limpar a casa e lavar o banheiro.</p>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>Você faz uma longa volta até a Padaria. Você acaba vendo uma loja no caminho, mas ignora.</p>
+            <button class="btn-proximo" data-proximo="10">Ignorar a loja e ir para a padaria</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <img src="img/passo16.jpg" alt="Mãe feliz">
+            <p>Final feliz. Você como o bolo e você e sua mãe ficam ricos</p>
+        </div>
+        <div class="passo" id="passo-19">
+            <img src="img/entrada padaia.png" alt="Entrada da padaria">
+            <p>Você entra na padaria, compra o pão que aumentou recentemene e não sobra troco</p>
+            <button class="btn-proximo" data-proximo="20">Ir pra casa</button>
+        </div>
+        <div class="passo" id="passo-20">
+            <img src="img/passo16.jpg" alt="Mãe feliz">
+            <p>Final Bom. Você vai pra casa e sua mãe te dá um bolo como recompensa por ter feito o que ela pediu. Você
+                come o bolo e sua mãe fica feliz</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
